@@ -1,0 +1,20 @@
+peridot_ore:
+  itemname: "Peridot Ore"
+  material: paper
+  Pack:
+    parent_model: "block/cube_all"
+    texture: peridot_ore.png
+  Mechanics:
+    custom_block:
+      type: NOTEBLOCK
+      custom_variation: 100
+      model: peridot_ore
+      hardness: 3
+      drop:
+        silktouch: true
+        minimal_type: GOLD
+        best_tool: PICKAXE
+        loots:
+          - nexo_item: peridot_ore
+            amount: 1
+            in_explosion: true

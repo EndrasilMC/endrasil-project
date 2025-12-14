@@ -1,0 +1,9 @@
+#SHAPELESS - Allows each ingredient to be put in any slot
+#SHAPED - Requires ingredients to be in a specific shape
+#FURNACE - Recipe for the Furnaces
+#BLASTING - Recipe for the Blast Furnace
+#SMOKING - Recipe for the Smoker
+#STONECUTTING - Recipe for the Stone Cutter
+#BREWING - Recipe for the Brewing Stand
+#SMITHING - Recipe for the Smithing Table - This is added via NexoAddon https://nexoaddon.gitbook.io/docs/recipes/smithing-recipe
+#https://github.com/Nexo-MC/Nexo-Documentation/blob/master/general-usage/recipes.md

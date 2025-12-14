@@ -1,0 +1,42 @@
+tin_ore:
+  itename: <white>name_ore
+  material: PAPER
+  Pack:
+    generate_model: true
+    parent_model: block/cube_all
+    texture:
+  Mechanics:
+    custom_block:
+      type: NOTEBLOCK
+      custom_variation:
+      model:
+      hardness: 10
+      drop:
+        silktouch: true
+        minimal_type: STONE #tool tier to break item
+        best_tool: PICKAXE #tool to break it
+        loots:
+          - itemss:
+            amount:
+      block_sounds:
+
+#test_block:
+#  itemname: <white>Custom Ore Block
+#  material: PAPER
+#  Pack:
+#    parent_model: block/cube_all
+#    texture: hyronic_sur:hyronic_sur/blocks_textures/uranium_ore
+#    custom_model_data: 5
+#  Mechanics:
+#    custom_block:
+#      type: NOTEBLOCK
+#     custom_variation: 1
+#      hardness: 1
+#      drop:
+#        loots:
+#          - mmoitem_type: AMULET
+#            mmoitem_id: IRIDIUM_HOOK
+#            amount: 1..3
+#        minimal_type: PICKAXE
+#        best_tool: PICKAXE
+#        silktouch: false
